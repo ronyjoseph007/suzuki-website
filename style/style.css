@@ -1,0 +1,58 @@
+/* reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    background-color:black;
+    padding: 30px 40px;
+
+}
+
+
+header nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+header .logo img{
+    border-radius: 68px;
+    object-fit: cover;
+    height: 80px;
+    width:80px;
+}
+.nav-bar{
+    justify-content: space-between;
+}
+
+ .nav-bar ul{
+    display: flex;
+    
+    list-style:none;
+}
+
+.nav-bar a{
+    color: cornsilk;
+    width :30px;
+    font-size: 19px;
+    padding: 20px  30px;
+    background-color: crimson;
+    border-radius: 10px;
+    
+
+
+}
