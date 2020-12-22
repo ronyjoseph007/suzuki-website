@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
 
 </head>
 
@@ -35,19 +37,71 @@
 
     <!-- zuk starts  -->
     <div class="zuk">
-        <img src="./images/bike.jpg" alt="zukImage">
-        <div class="zuk-info">
-            <h1>
-                <span>Welcome to</span>
-                Zuzuki
-                <span>India</span>
-            </h1>
-            <a class="cta-button" href="">Explore more</a>
+
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./images/bike.jpg" alt="zukImage">
+                    <div class="zuk-info">
+                        <h1>
+                            <span>Welcome to</span>
+                            Zuzuki
+                            <span>India</span>
+                        </h1>
+                        <a class="cta-button" href="">Explore more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="./images/bike2.jpg" alt="zukImage">
+                    <div class="zuk-info">
+                        <h1>
+                            <span>Welcome to</span>
+                            Zuzuki
+                            <span>India</span>
+                        </h1>
+                        <a class="cta-button" href="">Explore more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="./images/bike3.jpg" alt="zukImage">
+                    <div class="zuk-info">
+                        <h1>
+                            <span>Welcome to</span>
+                            Zuzuki
+                            <span>India</span>
+                        </h1>
+                        <a class="cta-button" href="">Explore more</a>
+                    </div>>
+                </div>
+                <div class="swiper-slide"><img src="./images/bike4.jpg" alt="zukImage">
+                    <div class="zuk-info">
+                        <h1>
+                            <span>Welcome to</span>
+                            Zuzuki
+                            <span>India</span>
+                        </h1>
+                        <a class="cta-button" href="">Explore more</a>
+                    </div>>
+                </div>
+                
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
         </div>
     </div>
 
 
     <!-- zuk ends -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
 </body>
 
 </html>

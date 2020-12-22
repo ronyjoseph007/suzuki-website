@@ -34,11 +34,11 @@ header nav{
 
 header .logo img{
     border-radius: 68px;
-    filter: brightness(72%);
+    filter: brightness(82%);
     object-fit: cover;
     height: 80px;
     width:80px;
-    filter: contrast(50%);
+    filter: contrast(70%);
     
 }
 .nav-bar{
@@ -68,6 +68,8 @@ header .logo img{
 }
 .nav-bar li a{
     transition: color ease 1s;
+    
+
 }
 
 .nav-bar li:hover  a{
@@ -84,7 +86,7 @@ header .logo img{
 /* Zuzuki */
 
 .zuk {
-    height: 700px;
+    height: 900px;
    position: relative;
     width: 100%;
     
@@ -111,10 +113,12 @@ header .logo img{
     color:#f5f5f5;
     text-shadow: 1px -3px 5px #e31254, 4px -4px 3px darkviolet;
     max-width: 287px;
+    margin-bottom: 32px;
 
 }
 
 .zuk .zuk-info h1 span{
+    display: block;
     font-size: 30px;
 }
 
@@ -123,11 +127,16 @@ header .logo img{
     background-color: rgb(235, 23, 8);
     font-weight: 100;
     font-size: 17px;
-    margin-top: 10px;
+    display: inline;
+    margin-top: 30px;
     padding: 10px 18px;
     color: ghostwhite;
     border-radius: 24px;
+    transition: background-color ease 0.5s ;
+}
 
+.zuk .zuk-info .cta-button:hover{
+    background-color:black;
 }
 
 
