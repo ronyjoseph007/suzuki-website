@@ -75,8 +75,31 @@ header .logo img{
 .nav-bar li:hover  a{
     
     background-color: #e7eff9;
-     background-image :linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+     background-image :linear-gradient(315deg, #9feff5 0%, #d5e7e7 74%);
     color:#f2f2f2
+
+}
+
+header .nav-bar .fa-bars{
+    display: none;
+
+}
+
+@media(max-width:767px)
+{
+    header .nav-bar .fa-bars{
+        display: block;
+        color: rgb(255, 255, 255);
+    
+    }
+}
+
+@media(max-width:767px){
+    .nav-bar ul{
+        display: block;
+        
+        list-style:none;
+    }
 
 }
 
@@ -102,29 +125,36 @@ header .logo img{
 }
 
 .zuk .zuk-info{
+    padding: 13px 14px;
+    border-radius: 20px;
+  
     left: 78px;
     font-size: 34px;
-    font-weight: 900;
+    height:300px;
+    width: 294px;
+    background-color:#000000a1; 
     position: absolute;
     top:30%;
 }
 
 .zuk .zuk-info h1{
     color:#f5f5f5;
-    text-shadow: 1px -3px 5px #e31254, 4px -4px 3px darkviolet;
+    text-shadow: 1px -3px 5px #10dfee, 4px -4px 3px rgb(34, 51, 48);
     max-width: 287px;
     margin-bottom: 32px;
+    
 
 }
 
 .zuk .zuk-info h1 span{
     display: block;
     font-size: 30px;
+    font-weight: 900;
 }
 
 .zuk .zuk-info .cta-button{
     height: 100px;
-    background-color: rgb(235, 23, 8);
+    background-color: rgb(55, 211, 211);
     font-weight: 100;
     font-size: 17px;
     display: inline;
@@ -138,6 +168,26 @@ header .logo img{
 .zuk .zuk-info .cta-button:hover{
     background-color:black;
 }
+
+.zuk .swiper-container-horizontal>.swiper-pagination {
+    text-align: right;
+    padding-right: 30px;
+   
+    bottom: 55px;
+}
+
+
+.zuk .swiper-pagination .swiper-pagination-bullet{
+    opacity: 1;
+    border: 2px solid rgb(255, 255, 255);
+    width: 23px;
+    height: 23px;
+    background: transparent;
+}
+.zuk .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    border: 2px solid #0cf7e4 ;
+}
+
 
 
 
